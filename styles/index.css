@@ -411,3 +411,8 @@ textarea {
     margin-bottom: 5px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .contact__page__container{
+    max-width: 85%;
+  }
+}
