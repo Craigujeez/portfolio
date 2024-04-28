@@ -16,7 +16,7 @@
         <li><a class="active" href="./contact.html">Contact</a></li>
         <li>
           <img
-            src="https://res-console.cloudinary.com/dcht3igem/media_explorer_thumbnails/dc0dbff729ecc1b82c553cfdc168ee52/card?v=1714131416"
+            src="./assets/profile-image.jpg"
             class="profile_picture"
             alt="portrait photo of frontend developer Nnamdi ujah"
           />
@@ -30,18 +30,21 @@
         out.
       </p>
 
-      <form>
+      <form 
+        action="https://formspree.io/f/xkndynyv"
+        method="POST"
+      >
         <div class="form__group">
           <label>Name</label>
           <input type="text" name="name" required />
         </div>
         <div class="form__group">
           <label>Email</label>
-          <input type="text" name="name" required />
+          <input type="text" name="email" required />
         </div>
         <div class="form__group">
           <label>Message</label>
-          <textarea type="text" name="name" required></textarea>
+          <textarea type="text" name="message" required></textarea>
         </div>
         <button class="btn">Send Message</button>
       </form>
